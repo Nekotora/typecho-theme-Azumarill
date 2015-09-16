@@ -148,6 +148,7 @@ a,a:hover,a:link,a:visited{
 	outline: 0;
 	border: 0;
 	height: 50px;
+	width: 50%;
 	background: transparent;
 	color: #666;
 	font-family: Ubuntu, "Helvetica Neue", Helvetica, "Nimbus Sans L", "Open Sans", "Roboto", "Segoe WP", "Segoe UI", arial, "Liberation Sans", freesans, clean, "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans CJK TC", "Source Han Sans TW", "Noto Sans CJK JP", "Source Han Sans JP", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei UI", "Microsoft YaHei", DengXian, "Wenquanyi Micro Hei", "ST Heiti", "Droid Sans Fallback", "Microsoft JhengHei", SimSun, sans-serif;
@@ -157,6 +158,7 @@ a,a:hover,a:link,a:visited{
 	height: 48px;
 	border-bottom: 2px solid #66ccff;
 }
+
 
 
 
@@ -420,6 +422,7 @@ a,a:hover,a:link,a:visited{
 	color: #777;
 	font-size: .93em;
 	line-height: 1.5em;
+	word-wrap: break-word;
 }
 
 .main .detail .content pre{
