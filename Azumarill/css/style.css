@@ -172,7 +172,7 @@ a,a:hover,a:link,a:visited{
 	height: 160px;
 	width: 75%;
 	color: #fff;
-	background: url(../img/bg1.png) no-repeat;
+	background: url(../img/bg.jpg) no-repeat;
 	background-size: cover;
     -webkit-animation: headerbg 30s linear infinite alternate;
 }
@@ -411,6 +411,10 @@ a,a:hover,a:link,a:visited{
 .main .detail .content ol,
 .main .detail .content ul{
 	margin: 1em 0;
+}
+
+.main .detail .content li{
+	line-height: 1.75em;
 }
 
 
