@@ -394,7 +394,7 @@ a,a:hover,a:link,a:visited{
 }
 
 .main .detail .content img{
-	width: 100%;
+	max-width: 60%;
 }
 
 .main .detail .content hr{
@@ -737,6 +737,9 @@ body #ds-smilies-tooltip {
 	}
 	.main .comments .content {
 	    margin-left: 0;
+	}
+	.main .detail .content img{
+		max-width: 100%;
 	}
 
 }
