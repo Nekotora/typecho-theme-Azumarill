@@ -6,7 +6,7 @@
 	    <a href="http://creativecommons.org/licenses/by-nc/4.0/deed.zh"><i class="icon-cc"></i>CC-BY-NC-4.0</a> &nbsp;&nbsp; / &nbsp;&nbsp;
 	    <a href="<?php $this->options->feedUrl(); ?>"><i class="icon-rss"></i>RSS</a>
     </p>
-    <p class="s"># <a href="javascript:void(0)" onclick="getkoto()" id="hitokoto">Loading...</a></p>
+    <!--<p class="s"># <a href="javascript:void(0)" onclick="getkoto()" id="hitokoto">Loading...</a></p>-->
     <p class="s">
         <a href="http://typecho.org/">Powered by Typecho</a> &nbsp;&nbsp; / &nbsp;&nbsp;
         <a href="http://flag.moe/">Theme 'Azumarill' by 哞菇</a> &nbsp;&nbsp; / &nbsp;&nbsp;

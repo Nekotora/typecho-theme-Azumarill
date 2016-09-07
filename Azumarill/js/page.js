@@ -1,5 +1,6 @@
 //Ready
 $(document).ready(function(){
+	console.log('Theme Designed by Nekotora <i@flag.moe>\nhttp://flag.moe/');
 	hSize();
 });
 //Resize
@@ -45,7 +46,7 @@ function gotop(){
 
 
 //Hitokoto
-setTimeout("getkoto()",1000);
+//setTimeout("getkoto()",1000);
 var timer;
 function getkoto(){
     var loader = document.createElement('script');

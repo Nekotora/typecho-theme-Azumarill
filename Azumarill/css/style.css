@@ -394,7 +394,7 @@ a,a:hover,a:link,a:visited{
 }
 
 .main .detail .content img{
-	max-width: 60%;
+	max-width: 65%;
 }
 
 .main .detail .content hr{
@@ -437,6 +437,9 @@ a,a:hover,a:link,a:visited{
 .main .detail .content code{
 	font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
 	color: #777;
+    overflow: auto;
+    width: 100%;
+    display: block;
 }
 
 
