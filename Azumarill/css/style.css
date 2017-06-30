@@ -442,226 +442,145 @@ a,a:hover,a:link,a:visited{
     display: block;
 }
 
-
-
-
-/* Duoshuo Comments Style */
-#ds-notify {
-	display:none !important;
-}
-#ds-thread #ds-reset li.ds-post {
-    border-top: 1px solid #f8f8f8 !important;
-}
-#ds-thread #ds-reset .ds-powered-by, .ds-post-repost {
-	display: none !important;
-}
-#ds-reset .ds-gradient-bg, #ds-thread #ds-reset .ds-textarea-wrapper {
-	background: none !important;
-}
-#ds-reset .ds-like-thread-button, .ds-rounded {
-	background: rgba(255,255,255,1) !important;
-	box-shadow: 0 0 0.1px rgba(0,0,0,0.2) !important;
-	border: 1px solid #ddd !important;
-}
-#ds-reset .ds-sync {
-	display: none !important;
-}
-#ds-thread #ds-reset .ds-comments{
-	border-bottom: none !important;
+input,textarea,button{
+font-family: Ubuntu, "Helvetica Neue", Helvetica, "Nimbus Sans L", "Open Sans", "Roboto", "Segoe WP", "Segoe UI", arial, "Liberation Sans", freesans, clean, "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans CJK TC", "Source Han Sans TW", "Noto Sans CJK JP", "Source Han Sans JP", "Noto Sans CJK", "Source Han Sans", "Microsoft YaHei UI", "Microsoft YaHei", DengXian, "Wenquanyi Micro Hei", "ST Heiti", "Droid Sans Fallback", "Microsoft JhengHei", SimSun, sans-serif;
 }
 
-/* 隐藏评论框底部分享*/
-#ds-thread #ds-reset .ds-meta{
-	border:none !important;
+.comments h3{
+    font-size:14px;
+    font-weight: normal;
 }
-#ds-thread #ds-reset .ds-post-button {
-	background: #fff !important;
-	box-shadow: none !important;
-	border: 1px solid #ddd !important;
-	left: auto !important;
-	color: #888 !important;
-	font-weight: normal !important;
-	outline: none;
+
+.comments .comment-list{
+padding-top: 20px;
 }
-#ds-thread #ds-reset .ds-post-button:hover{
-	background: #66ccff !important;
-	border-color: #66ccff !important;
-	color: #fff !important;
+
+.comments .comment-list li{
+    list-style:none;
+    padding-top: 20px;
+    border-top: 1px solid #f8f8f8;
+    position: relative;
 }
-#ds-thread #ds-reset .ds-textarea-wrapper textarea {
-	height: 54px !important;
+
+.comments>.comment-list>li{
+    padding-bottom: 20px;
 }
-#ds-thread #ds-reset li.ds-tab a, #ds-thread #ds-reset #ds-bubble, #ds-reset .ds-avatar img {
-	border-radius: 1px !important;
+
+.comments ol li>div{
+    margin-left: 70px;
 }
-#ds-thread #ds-reset li.ds-tab a:hover {
-	background: #fff !important;
+
+.comments .comment-children{
+    margin-left: 50px;
 }
-#ds-thread #ds-reset li.ds-tab a.ds-current {
-	background: #fff !important;
-	border: none !important;
+
+.comments .comment-author{
+    position: relative;
 }
-#ds-thread #ds-reset .ds-post-self {
-	padding-top: 15px !important;
-	padding-bottom: 15px !important;
+
+.comments .comment-author cite.fn,
+.comments .comment-author cite.fn a{
+    font-size: 15px;
+    color: #0c94de;
+    padding-top: 3px;
+    display: inline-block;
+    font-style: normal;
 }
-#ds-reset .ds-avatar img {
-	box-shadow: none !important;
-	border: 1px solid #ddd !important;
-	padding: 1px !important;
-	border-radius: 100% !important;
-	width: 40px !important;
-	height: 40px !important;
+
+.comments .comment-meta{
+    padding: 8px 0;
+    font-size: 13px;
 }
-#ds-reset .ds-replybox .ds-avatar img {
-	width: 50px !important;
-	height: 50px !important;
-	border-radius: 100% !important;
+
+.comments .comment-meta a{
+    color: #999;
 }
-#ds-thread #ds-reset #ds-bubble {
-	border: 1px solid #ddd !important;
-	box-shadow: none !important;
+
+.comments .avatar{
+    border: 1px solid #ddd;
+    padding: 1px;
+    border-radius: 100%;
+    width: 50px !important;
+    height: 50px !important;
+    position:absolute;
+    left:-70px;
 }
-#ds-thread #ds-reset .ds-replybox {
-	padding-left: 70px !important;
+
+.comments .comment-reply{
+    position:absolute;
+    top: 25px;
+    right: 0;
+    font-size: 12px;
 }
-#ds-thread #ds-reset .ds-post-self {
-	padding-left: 0 !important;
+
+.comments .comment-reply a{
+    color:#dfdfdf;
+transition: all 0.3s;
 }
-#ds-thread #ds-reset .ds-inline-replybox {
-	margin-top: 27px !important;
-	margin-left: 0 !important;
+
+.comments .comment-list li:hover .comment-reply a{color:#989898;}
+
+.comments li .respond{
+padding-top:20px;
 }
-#ds-thread #ds-reset .ds-comment-body, #ds-thread #ds-reset ul.ds-children .ds-comment-body {
-  padding-left: 50px !important;
+.comments .respond p{
+padding: 10px 0;
 }
-#ds-thread #ds-reset a.ds-comment-context {
-	border: 1px solid #E3EDF3 !important;
-	background: #F7FAFB !important;
-	padding: 2px 0 1px 3px !important;
-	color: #555 !important;
-	margin-right: 5px !important;
-	border-radius: 1px !important;
-	-webkit-border-radius: 1px !important;
+
+.comments .respond .comment-form{
+width:100%;
 }
-#ds-thread #ds-reset li.ds-post-placeholder {
-	padding: 20px 0 !important;
+
+.comments .respond .comment-form .userinfo input{
+float:left;
+width: 30%;
+margin-right: 5%;
 }
-body #ds-smilies-tooltip ul.ds-smilies-tabs li a {
-	background-image: -webkit-gradient(linear,left 0,left 100%,from(#fff),to(#fff));
-	background-image: -webkit-linear-gradient(top,#fff,0%,#fff,100%);
-	background-image: -moz-linear-gradient(top,#fff 0,#fff 100%);
-	background-image: linear-gradient(to bottom,#fff 0,#fff 100%);
-	border-bottom: 1px solid #e9e9e9;
+
+.comments .respond .comment-form .userinfo input:last-child{
+margin-right: 0;
 }
-body #ds-smilies-tooltip {
-	border: 0 !important;
-	box-shadow: 0 0 30px rgba(0,0,0,0.2) !important;
+
+.comments .respond .comment-form .content textarea{
+width: 100% !important;
 }
-#ds-smilies-tooltip .ds-smilies-container {
-	height: 180px!important;
+
+.comments input,
+.comments textarea{
+border:0;
+background:#fafafa;
+outline:0;
+border-left:4px solid #eee;
+padding: 10px;
+    margin-right: 15px;
+    padding: 10px 10px 10px 16px;
+box-sizing:border-box; -moz-box-sizing:border-box;-webkit-box-sizing:border-box;
+transition: all 0.3s;
 }
-#ds-smilies-tooltip ul.ds-smilies-tabs {
-	height: 180px!important;
+
+.comments input:hover,
+.comments textarea:hover{
+border-left:4px solid #66ccff;
 }
-#ds-reset ul.ds-children .ds-avatar img {
-	width: 40px !important;
-	height: 40px !important;
+
+.comments input:focus,
+.comments textarea:focus{
+border-left:4px solid #1599d6;
 }
-#ds-thread #ds-reset .ds-comment-body p {
-	margin: 10px !important;
+
+.comments .submit{
+border:0;
+outline:0;
+background:#00BDFF;
+color:#fff;
+padding: 10px 20px;
+cursor:pointer;
+transition: all 0.3s;
 }
-#ds-thread #ds-reset .ds-comment-body .ds-comment-footer a{
-	float: right !important;
-	color: #bbb !important5;
+
+.comments .submit:hover{
+background:#66ccff;
 }
-#ds-thread #ds-reset .ds-comment-body .ds-comment-footer a:hover{
-	color: #444 !important;
-}
-#ds-reset button {
-	background: #fff !important;
-	box-shadow: 0 0 1px rgba(0,0,0,0.2) !important;
-	border: 1px solid #ddd !important;
-}
-#ds-reset button:hover {
-	background: #ddd !important;
-	box-shadow: 0 0 1px rgba(0,0,0,0.2) !important;
-	border: 1px solid #ddd !important;
-}
-#ds-thread #ds-reset .ds-user-name {
-	color: #0c94de !important;
-}
-#ds-thread #ds-reset .ds-comment-header {
-	margin-left: 10px !important;
-}
-#ds-thread #ds-reset .ds-login-buttons .ds-more-services {
-	color: #777 !important;
-}
-#ds-thread #ds-reset .ds-login-buttons .ds-more-services:hover {
-	color: #333 !important;
-}
-#ds-thread #ds-reset ul.ds-comments-tabs .ds-highlight {
-	margin: 0 3px 0 0 !important;
-}
-#ds-thread #ds-reset .ds-time {
-	margin-left: 10px !important;
-}
-#ds-thread.ds-narrow #ds-reset .ds-comments .ds-avatar img {
-	width: 35px !important;
-	height: 35px !important;
-}
-#ds-thread #ds-reset .ds-comment-body img {
-	max-width: 50px !important;
-}
-/* 多说的复写语句，max-width 的值要与下一句的 width 和 height 的值相同*/
-	#ds-thread #ds-reset .ds-inline-replybox .ds-avatar img {
-	width: 50px !important;
-	height: 50px !important;
-}
-#ds-thread.ds-narrow #ds-reset .ds-comments .ds-inline-replybox .ds-avatar img {
-	width: 50px !important;
-	height: 50px !important;
-}
-#ds-thread #ds-reset .ds-textarea-wrapper {
-	border: 1px solid #ddd !important;
-	border-bottom: none !important;
-}
-#ds-thread #ds-reset .ds-post-options {
-	border: 1px solid #ddd !important;
-	border-bottom-color: #ddd !important;
-	border-right: none !important;
-}
-#ds-reset .ds-rounded-top {
-	border-radius: 1px 1px 0 0 !important;
-	-webkit-border-radius: 1px 1px 0 0 !important;
-}
-#ds-thread #ds-reset .ds-paginator div.ds-border,
-#ds-thread #ds-reset .ds-paginator{
-	border: none !important;
-	border-bottom: 1px solid rgba(0,0,0,.066) !important;
-}
-/* 顶起来的评论 */
-#ds-thread #ds-reset #ds-hot-posts {
-	padding: 0 12px !important;
-	border: none !important;
-}
-#ds-thread #ds-reset .ds-header {
-	padding: 0;
-}
-#ds-thread #ds-reset .ds-comments-info{
-	margin-top: 30px !important;
-}
-#ds-reset .ds-avatar img{   
-    -webkit-transition: 0.4s;      
-    -webkit-transition: -webkit-transform 0.4s ease-out;   
-    transition: transform 0.4s ease-out; 
-    -moz-transition: -moz-transform 0.4s ease-out;   
-}    
-#ds-reset .ds-avatar img:hover{
-    transform: rotateZ(360deg); 
-    -webkit-transform: rotateZ(360deg);   
-    -moz-transform: rotateZ(360deg);   
-}  
 
 
 .main .page{
